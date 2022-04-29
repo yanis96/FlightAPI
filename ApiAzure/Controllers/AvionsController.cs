@@ -23,9 +23,12 @@ namespace ApiAzure.Controllers
 
         //"api/Avions"
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Avion>>> GetAvion()
+        public async Task<ActionResult<IEnumerable<Avion>>> GetAvion([FromQuery] PaginationParams @params)
         {
-            return await _context.Avions.ToListAsync();
+            return await _context.Avions
+                                 .Skip((@params.Page - 1) * @params.ItemsPerPage)
+                                 .Take(@params.ItemsPerPage)
+                                 .ToListAsync();
         }
 
         // "api/Avions/[numAvion]"

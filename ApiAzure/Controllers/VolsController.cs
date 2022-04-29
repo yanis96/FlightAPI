@@ -21,9 +21,12 @@ namespace ApiAzure.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Vol>>> GetVols()
+        public async Task<ActionResult<IEnumerable<Vol>>> GetVols([FromQuery] PaginationParams @params)
         {
-            return await _context.Vols.ToListAsync();
+            return await _context.Vols
+                                 .Skip((@params.Page - 1) * @params.ItemsPerPage)
+                                 .Take(@params.ItemsPerPage)
+                                 .ToListAsync();
         }
 
         [HttpGet("{numVol}")]
