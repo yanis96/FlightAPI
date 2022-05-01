@@ -21,9 +21,10 @@ namespace ApiAzure.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<History>>> GetHistories([FromQuery] PaginationParams @params)
+        public async Task<ActionResult<IEnumerable<History>>> GetHistories([FromQuery] string dateHist, [FromQuery] PaginationParams @params)
         {
             return await _context.Histories
+                                 .Where(c => c.dateHist == dateHist)
                                  .Skip((@params.Page - 1) * @params.ItemsPerPage)
                                  .Take(@params.ItemsPerPage)
                                  .ToListAsync();
