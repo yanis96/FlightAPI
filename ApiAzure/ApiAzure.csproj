@@ -9,6 +9,8 @@
     <Compile Remove="Migrations\20220430222919_correctionDate.Designer.cs" />
     <Compile Remove="Migrations\20220430223507_mig2.cs" />
     <Compile Remove="Migrations\20220430223507_mig2.Designer.cs" />
+    <Compile Remove="Migrations\20220513094911_migAzureYaniBoum.cs" />
+    <Compile Remove="Migrations\20220513094911_migAzureYaniBoum.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

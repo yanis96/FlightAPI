@@ -5924,11 +5924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\projet final\\ApiAzure\\ApiAzure\\ApiAzure.csproj",
+      "projectUniqueName": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\FlightAPI\\ApiAzure\\ApiAzure.csproj",
       "projectName": "ApiAzure",
-      "projectPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\projet final\\ApiAzure\\ApiAzure\\ApiAzure.csproj",
+      "projectPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\FlightAPI\\ApiAzure\\ApiAzure.csproj",
       "packagesPath": "C:\\Users\\bouze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\projet final\\ApiAzure\\ApiAzure\\obj\\",
+      "outputPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\FlightAPI\\ApiAzure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bouze\\AppData\\Roaming\\NuGet\\NuGet.Config",

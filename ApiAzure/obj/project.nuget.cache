@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLslFASuBP69FqAoInjPUbMZexA8JITXnZ1HuC2zxRvVnrztEXGadCdMquMYkxAfkvYMmCQQnInwKKqo9rz9sw==",
+  "dgSpecHash": "QNLQsWrQxoT6LLCMYIDU48ptu5ygnRsAFSXsf4599cNIYMOQerH7FlY/BN0W3T3HBHxNm+rwMy2T/qIbdqwDFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\projet final\\ApiAzure\\ApiAzure\\ApiAzure.csproj",
+  "projectFilePath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\FlightAPI\\ApiAzure\\ApiAzure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bouze\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\bouze\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
